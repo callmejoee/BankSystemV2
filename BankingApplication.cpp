@@ -60,7 +60,7 @@ void BankingApplication::createAccount(){
         cin >> balance;
         SavingsAccount(counter, balance);
         counter++;
-        clients.pushback
+
 
     }
     else if (accountType == 2){
@@ -75,17 +75,11 @@ void BankingApplication::createAccount(){
     }
 }
 void BankingApplication::listClients(){
-    for (int i = 0; i < counter; i++){
-        cout << "Client name: " << clients[i].display() << endl;
-        cout << "Client address: " << clients[i].get_address() << endl;
-        cout << "Client phone number: " << clients[i].get_phone() << endl;
-        cout << "Account number: " << clients[i].get_accountNumber() << endl;
-        cout << "Account balance: " << clients[i].get_balance() << endl;
-    }
+
 
 }
 void BankingApplication::deposit(){
-    
+
 
 }
 void BankingApplication::withdraw(){
